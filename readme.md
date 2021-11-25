@@ -8,7 +8,7 @@ Se harán pruebas con **git branch**, **git merge** y **git tag** todo a través
 ## Proyecto
 El proyecto consta de un único .java, el cual solocontiene métodos para trabajar con arrays.
 Ha siduo subido y gestionado a través de *eGit*, y en su estado actual necesitaría:
-- [ ] ontrol de errores
+- [ ] Control de errores
 - [ ] Comentarios
 - [ ] Aplicación principal o motivo de uso
 
