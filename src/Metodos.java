@@ -7,4 +7,10 @@ public class Metodos {
 			array[i] = (int) Math.random() * 11;
 		}
 	}
+	
+	public void imprimirArray(int[] array) {
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i] + " ");
+		}
+	}
 }
