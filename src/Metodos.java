@@ -7,4 +7,25 @@ public class Metodos {
 			array[i] = (int) Math.random() * 11;
 		}
 	}
+
+	public void imprimirArray(int[] array) {
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i] + " ");
+		}
+	}
+
+	public int[] contarRepeticiones(int[] array) {
+		int[] repeticiones = new int[array.length];
+
+		for (int i = 0; i < array.length; i++) {
+			repeticiones[i] = 0;
+			for (int j = 0; j < array.length; j++) {
+				if (array[i] == array[j]) {
+					repeticiones[i] += 1;
+				}
+			}
+		}
+		
+		return repeticiones;
+	}
 }
